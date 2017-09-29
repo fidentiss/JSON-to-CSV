@@ -3,9 +3,9 @@
 $json = file_get_contents("https://api.coinmarketcap.com/v1/ticker/");
 //Convierto el json en un array para manipularlo mas facil
 $array=json_decode($json, true);
-//Obtengo el tamaño del array
-$longitud=count($array);
 
+//Obtengo el tamaño del array
+//$longitud=count($array);
 /*CON ESTE IMPRIMO EN PANTALLA
 //recorro el array
 for($i=0; $i<$longitud; $i++){
